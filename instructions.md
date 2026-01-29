@@ -14,18 +14,13 @@ From 9.15 to 11.00
 -----
 Preamble
 
-.env file in source folder with API key
-
-
-
-
+Have the .env file in source folder with API key
 
 # How to program agents and extract useful data
 
-At the end of this tutorial you will create a...
+At the end of this tutorial you will create a : @folder
 
 All the workshop is available on GitHub : github link
-
 
 
 1.  a) The curl approach
@@ -36,10 +31,7 @@ All the workshop is available on GitHub : github link
 
         More accurate!
 
-
-
-
-
+        
 
 2. The single API call to an LLM through python - ChatCompletions
 
@@ -56,7 +48,7 @@ It is tied to the OpenAI library
 
 Still tied to the OpenAI library, but now with a tool!
 
-Chat Completions was the old way, since March 2025 we have Responses
+Chat Completions API was the old way, since March 2025 we have Responses API
 
 # The Key Difference between Chat Completions and Responses API
 

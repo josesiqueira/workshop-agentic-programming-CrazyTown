@@ -1,7 +1,8 @@
-""""
+# Lesson 1: OpenAI Responses API with cURL
 
-1. 
+## Basic Request (without tools)
 
+```bash
 curl https://api.openai.com/v1/responses \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_OPENAI_API_KEY" \
@@ -9,29 +10,11 @@ curl https://api.openai.com/v1/responses \
     "model": "gpt-5.2",
     "input": "Tell me where Crazy Town in Tampere is located."
   }'
+```
 
-  
+### Response
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-The response is: 
-
+```json
 {
   "id": "resp_0aa21d50be82c5c400695fc28db9ec81958d1253b6dab05c66",
   "object": "response",
@@ -58,7 +41,7 @@ The response is:
           "type": "output_text",
           "annotations": [],
           "logprobs": [],
-          "text": "Crazy Town (the co-working/community hub) in Tampere is located at:\n\n**N\u00e4silinnankatu 22 A, 33210 Tampere, Finland** (near the city centre / H\u00e4meenkatu area)."
+          "text": "Crazy Town (the co-working/community hub) in Tampere is located at:\n\n**Näsilinnankatu 22 A, 33210 Tampere, Finland** (near the city centre / Hämeenkatu area)."
         }
       ],
       "role": "assistant"
@@ -100,30 +83,12 @@ The response is:
   },
   "user": null,
   "metadata": {}
+}
+```
 
+## With Web Search Tool Enabled
 
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# With websearch tool enabled
-"""
+```bash
 curl https://api.openai.com/v1/responses \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_OPENAI_API_KEY" \
@@ -134,46 +99,13 @@ curl https://api.openai.com/v1/responses \
     ],
     "input": "Tell me where Crazy Town in Tampere is located."
   }'
+```
 
+### Response
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  The response is:
-
-
-
-    "id": "resp_01a9e255562350cd00695fcb81824881a39ce40365ff1e7d81",
+```json
+{
+  "id": "resp_01a9e255562350cd00695fcb81824881a39ce40365ff1e7d81",
   "object": "response",
   "created_at": 1767885697,
   "status": "completed",
@@ -221,12 +153,12 @@ curl https://api.openai.com/v1/responses \
               "type": "url_citation",
               "end_index": 449,
               "start_index": 374,
-              "title": "Tampere \u2013 https://crazytown.fi/",
+              "title": "Tampere – https://crazytown.fi/",
               "url": "https://crazytown.fi/sijainnit/tampere/?utm_source=openai"
             }
           ],
           "logprobs": [],
-          "text": "Crazy Town Tampere is located at:\n\n**Pakkahuoneenaukio 2, 33100 Tampere, Finland** (Crazy Town \u201cPendoliino\u201d, next to the railway station). ([crazytown.fi](https://crazytown.fi/en/toimitilat/tampere/?utm_source=openai))\n\n(Older sources mention the previous address **Rautatienkatu 21** in Tampere, but Crazy Town\u2019s current Tampere location is listed as Pakkahuoneenaukio 2.) ([crazytown.fi](https://crazytown.fi/sijainnit/tampere/?utm_source=openai))"
+          "text": "Crazy Town Tampere is located at:\n\n**Pakkahuoneenaukio 2, 33100 Tampere, Finland** (Crazy Town "Pendoliino", next to the railway station). ([crazytown.fi](https://crazytown.fi/en/toimitilat/tampere/?utm_source=openai))\n\n(Older sources mention the previous address **Rautatienkatu 21** in Tampere, but Crazy Town's current Tampere location is listed as Pakkahuoneenaukio 2.) ([crazytown.fi](https://crazytown.fi/sijainnit/tampere/?utm_source=openai))"
         }
       ],
       "role": "assistant"
@@ -281,6 +213,5 @@ curl https://api.openai.com/v1/responses \
   },
   "user": null,
   "metadata": {}
-
-
-"""
+}
+```
