@@ -11,6 +11,8 @@ Important: this is a BYOK (Bring Your Own Key) presentation.
 
 From 9.15 to 11.00
 
+# GitHub link is : 
+https://github.com/josesiqueira/worshop-agentic-programming-CrazyTown
 -----
 Preamble
 
@@ -19,9 +21,6 @@ Have the .env file in source folder with API key
 # How to program agents and extract useful data
 
 At the end of this tutorial you will create a : @folder
-
-All the workshop is available on GitHub : github link
-
 
 1.  a) The curl approach
 
