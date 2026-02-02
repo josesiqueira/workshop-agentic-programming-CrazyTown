@@ -6,7 +6,7 @@ Instead of passing all CSV data to the LLM, the LLM calls these tools
 to retrieve only the specific data it needs, saving input tokens.
 
 Run directly: python lesson13_mcp_server.py (for testing)
-Used by: lesson13_mcp.py via MCPServerStdio
+Used by: lesson13_mcp_has_task.py via MCPServerStdio
 """
 
 import csv

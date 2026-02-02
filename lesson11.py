@@ -2,6 +2,16 @@ r"""
 Lesson 11: Pydantic AI agent framework - Extracting structured information from an image, in an agentic way with watch folder
 Not using database, just a CSV file, it is appending at the end of the file, every time a new image is processed.
 
+Is this already an AI agent? 
+
+This is NOT an AI agent. An agent would have:
+- Temporal continuity (a loop running over time)
+- Tools/actuators (search, database, filesystem, etc.)
+- State/memory across steps
+- Goal-directed behavior
+
+We will see that in the next lesson.
+
 Setup:
 
 Always create a virtual environment

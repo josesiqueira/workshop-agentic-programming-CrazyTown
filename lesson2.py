@@ -1,7 +1,7 @@
 r"""
 Lesson 2: Your First API Call with the OpenAI Python SDK - Chat Completions
 
-%daqui
+
 A Single Inference Call (Not an Agent)
 
 This is a stateless, one-shot query to an LLM. The model receives a prompt,
@@ -15,12 +15,8 @@ Key characteristics of a single inference call:
 - Reactive (answers only when asked)
 - Stateless
 
-This is NOT an AI agent. An agent would have:
-- Temporal continuity (a loop running over time)
-- Tools/actuators (search, database, filesystem, etc.)
-- State/memory across steps
-- Goal-directed behavior
-% ate aqui, gerado por IA, pra eu colocar como explicação depois em alguma lesson futura.
+Question: Is this an AI Agent? Why or why not?
+
 ---
 
 Setup:

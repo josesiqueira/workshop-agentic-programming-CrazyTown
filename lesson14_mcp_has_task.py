@@ -7,6 +7,7 @@ the agent connects to an MCP server that provides tools to query the data.
 
 The LLM only calls the tools it needs, significantly reducing input tokens.
 
+
 Setup:
 
 Install the dependencies
@@ -99,6 +100,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+# Ask @lesson13_mcp_server.py for "give me all the data", and ask @lesson13.py for the same question to see the difference in token usage.
+# Can you explain why MCP is less token-efficient in this case?
 
 # Your Capstone Project:
 

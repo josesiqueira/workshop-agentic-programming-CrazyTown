@@ -12,7 +12,7 @@ Important: this is a BYOK (Bring Your Own Key) presentation.
 From 9.15 to 11.00
 
 # GitHub link is : 
-https://github.com/josesiqueira/worshop-agentic-programming-CrazyTown
+https://github.com/josesiqueira/workshop-agentic-programming-CrazyTown
 -----
 Preamble
 
@@ -92,16 +92,36 @@ To be credibly “agent-like,” you’d add at least:
 12. The agentic approach: two agents
 12.-async, Agents in paralell.
 
-13. Have a conversation with the data. (CSV in the input)
-13.-MCP, Less input token use
+13. Have a conversation with the data - CSV in the input
+
+14. Have a conversation with the data - FastMCP approach
 
 
 Recommended sources:
-Book: Agentic Artificial intelligence, by Pascal Bornet
-Youtube videos:
-1. How to Build AI Agents with PydanticAI (Beginner Tutorial) - https://www.youtube.com/watch?v=zcYtSckecD8
-2. Building AI Applications the Pydantic Way - https://www.youtube.com/watch?v=zJm5ou6tSxk
-3. Simplify AI Schemas with Pydantic & OpenAI (No More Manual JSON!) - https://www.youtube.com/watch?v=3Z03fwH1I7s
-4. https://platform.claude.com/docs/en/intro
-5. https://platform.openai.com/docs/api-reference/introduction
 
+1. Book: Agentic Artificial intelligence, by Pascal Bornet
+    https://www.adlibris.com/fi/kirja/agentic-artificial-intelligence-harnessing-ai-agents-to-reinvent-business-work-and-life-9789819816224
+
+2. YT: How to Build AI Agents with PydanticAI (Beginner Tutorial) - 
+    https://www.youtube.com/watch?v=zcYtSckecD8
+
+3. YT: Building AI Applications the Pydantic Way - 
+    https://www.youtube.com/watch?v=zJm5ou6tSxk
+
+4. YT: Simplify AI Schemas with Pydantic & OpenAI (No More Manual JSON!) - 
+    https://www.youtube.com/watch?v=3Z03fwH1I7s
+
+5. YT: MCP Crash Course: What Python Developers Need to Know - 
+    https://www.youtube.com/watch?v=5xqFjh56AwM
+
+6. Claude Docs
+    https://platform.claude.com/docs/en/intro
+
+7. OpenAI Reference API Docs
+    https://platform.openai.com/docs/api-reference/introduction
+
+8. Pydantic AI Docs
+    https://ai.pydantic.dev/
+
+9. FastMCP Docs
+    https://gofastmcp.com/getting-started/welcome
